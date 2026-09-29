@@ -1,0 +1,44 @@
+{"version":9,"type":"context-options","origin":"testRunner","browserName":"","playwrightVersion":"1.63.0","options":{},"platform":"win32","wallTime":1790714894937,"monotonicTime":21799.517,"sdkLanguage":"javascript"}
+{"type":"before","callId":"hook@1","stepId":"hook@1","startTime":21822.754,"class":"Test","method":"hook","title":"Before Hooks","params":{},"stack":[]}
+{"type":"before","callId":"hook@2","stepId":"hook@2","parentId":"hook@1","startTime":21823.585,"class":"Test","method":"hook","title":"beforeEach hook","params":{},"stack":[{"file":"D:\\Projects\\Assessment tentwenty\\tests\\e2e-checkout.spec.js","line":10,"column":8}]}
+{"type":"before","callId":"fixture@31","stepId":"fixture@31","parentId":"hook@2","startTime":21834.483,"class":"Test","method":"fixture","title":"Fixture \"browser\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@32","stepId":"pw:api@32","parentId":"fixture@31","startTime":21838.243,"class":"Test","method":"pw:api","title":"Launch browser","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@32","endTime":21942.169,"annotations":[]}
+{"type":"after","callId":"fixture@31","endTime":21942.615,"annotations":[]}
+{"type":"before","callId":"fixture@35","stepId":"fixture@35","parentId":"hook@2","startTime":21946.93,"class":"Test","method":"fixture","title":"Fixture \"context\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@36","stepId":"pw:api@36","parentId":"fixture@35","startTime":21949.853,"class":"Test","method":"pw:api","title":"Create context","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@36","endTime":21964.238,"annotations":[]}
+{"type":"after","callId":"fixture@35","endTime":21977.22,"annotations":[]}
+{"type":"before","callId":"fixture@37","stepId":"fixture@37","parentId":"hook@2","startTime":21978.289,"class":"Test","method":"fixture","title":"Fixture \"page\"","params":{},"stack":[]}
+{"type":"before","callId":"pw:api@38","stepId":"pw:api@38","parentId":"fixture@37","startTime":21982.236,"class":"Test","method":"pw:api","title":"Create page","params":{},"stack":[]}
+{"type":"after","callId":"pw:api@38","endTime":22117.177,"annotations":[]}
+{"type":"after","callId":"fixture@37","endTime":22117.658,"annotations":[]}
+{"type":"before","callId":"pw:api@39","stepId":"pw:api@39","parentId":"hook@2","startTime":22125.84,"class":"Test","method":"pw:api","title":"Navigate","subtitle":"/","params":{"url":"/"},"stack":[{"file":"D:\\Projects\\Assessment tentwenty\\pages\\login.page.js","line":10,"column":21,"function":"LoginPage.goto"}]}
+{"type":"after","callId":"pw:api@39","endTime":22760.443,"annotations":[]}
+{"type":"after","callId":"hook@2","endTime":22760.672,"annotations":[]}
+{"type":"after","callId":"hook@1","endTime":22761.04,"annotations":[]}
+{"type":"before","callId":"pw:api@40","stepId":"pw:api@40","startTime":22768.039,"class":"Test","method":"pw:api","title":"Fill \"standard_user\"","subtitle":"locator('[data-test=\"username\"]')","params":{"locator":"locator('[data-test=\"username\"]')","value":"standard_user"},"stack":[{"file":"D:\\Projects\\Assessment tentwenty\\pages\\login.page.js","line":14,"column":30,"function":"LoginPage.login"}]}
+{"type":"after","callId":"pw:api@40","endTime":22825.973,"annotations":[]}
+{"type":"before","callId":"pw:api@41","stepId":"pw:api@41","startTime":22827.451,"class":"Test","method":"pw:api","title":"Fill \"secret_sauce\"","subtitle":"locator('[data-test=\"password\"]')","params":{"locator":"locator('[data-test=\"password\"]')","value":"secret_sauce"},"stack":[{"file":"D:\\Projects\\Assessment tentwenty\\pages\\login.page.js","line":15,"column":30,"function":"LoginPage.login"}]}
+{"type":"after","callId":"pw:api@41","endTime":22854.128,"annotations":[]}
+{"type":"before","callId":"pw:api@42","stepId":"pw:api@42","startTime":22855.96,"class":"Test","method":"pw:api","title":"Click","subtitle":"locator('[data-test=\"login-button\"]')","params":{"locator":"locator('[data-test=\"login-button\"]')"},"stack":[{"file":"D:\\Projects\\Assessment tentwenty\\pages\\login.page.js","line":16,"column":28,"function":"LoginPage.login"}]}
+{"type":"after","callId":"pw:api@42","endTime":22954.539,"annotations":[]}
+{"type":"before","callId":"expect@43","stepId":"expect@43","startTime":22960.79,"class":"Test","method":"expect","title":"Expect \"toHaveURL\"","params":{"expected":"Object"},"stack":[{"file":"D:\\Projects\\Assessment tentwenty\\tests\\e2e-checkout.spec.js","line":22,"column":24}]}
+{"type":"after","callId":"expect@43","endTime":23138.557,"annotations":[]}
+{"type":"before","callId":"pw:api@44","stepId":"pw:api@44","startTime":23141.511,"class":"Test","method":"pw:api","title":"Click","subtitle":"locator('[data-test=\"add-to-cart-sauce-labs-backpack\"]')","params":{"locator":"locator('[data-test=\"add-to-cart-sauce-labs-backpack\"]')"},"stack":[{"file":"D:\\Projects\\Assessment tentwenty\\pages\\inventory.page.js","line":10,"column":34,"function":"InventoryPage.addBackpackToCart"}]}
+{"type":"after","callId":"pw:api@44","endTime":23191.588,"annotations":[]}
+{"type":"before","callId":"expect@45","stepId":"expect@45","startTime":23193.265,"class":"Test","method":"expect","title":"Expect \"toHaveText\"","subtitle":"locator('[data-test=\"shopping-cart-badge\"]')","params":{"locator":"locator('[data-test=\"shopping-cart-badge\"]')","expected":"1"},"stack":[{"file":"D:\\Projects\\Assessment tentwenty\\tests\\e2e-checkout.spec.js","line":26,"column":43}]}
+{"type":"after","callId":"expect@45","endTime":23210.653,"annotations":[]}
+{"type":"before","callId":"pw:api@46","stepId":"pw:api@46","startTime":23212.964,"class":"Test","method":"pw:api","title":"Click","subtitle":"locator('[data-test=\"shopping-cart-link\"]')","params":{"locator":"locator('[data-test=\"shopping-cart-link\"]')"},"stack":[{"file":"D:\\Projects\\Assessment tentwenty\\pages\\inventory.page.js","line":23,"column":25,"function":"InventoryPage.goToCart"}]}
+{"type":"after","callId":"pw:api@46","endTime":23293.81,"annotations":[]}
+{"type":"before","callId":"expect@47","stepId":"expect@47","startTime":23294.909,"class":"Test","method":"expect","title":"Expect \"toHaveURL\"","params":{"expected":"Object"},"stack":[{"file":"D:\\Projects\\Assessment tentwenty\\tests\\e2e-checkout.spec.js","line":30,"column":24}]}
+{"type":"after","callId":"expect@47","endTime":23314.809,"annotations":[]}
+{"type":"before","callId":"expect@48","stepId":"expect@48","startTime":23316.663,"class":"Test","method":"expect","title":"Expect \"toHaveCount\"","subtitle":"locator('.cart_list .cart_item')","params":{"locator":"locator('.cart_list .cart_item')","expected":"1"},"stack":[{"file":"D:\\Projects\\Assessment tentwenty\\tests\\e2e-checkout.spec.js","line":31,"column":38}]}
+{"type":"after","callId":"expect@48","endTime":23330.441,"annotations":[]}
+{"type":"before","callId":"pw:api@49","stepId":"pw:api@49","startTime":23333.173,"class":"Test","method":"pw:api","title":"Click","subtitle":"locator('[data-test=\"checkout\"]')","params":{"locator":"locator('[data-test=\"checkout\"]')"},"stack":[{"file":"D:\\Projects\\Assessment tentwenty\\pages\\cart.page.js","line":19,"column":31,"function":"CartPage.goToCheckout"}]}
+{"type":"after","callId":"pw:api@49","endTime":23399.732,"annotations":[]}
+{"type":"before","callId":"expect@50","stepId":"expect@50","startTime":23402.53,"class":"Test","method":"expect","title":"Expect \"toHaveURL\"","params":{"expected":"Object"},"stack":[{"file":"D:\\Projects\\Assessment tentwenty\\tests\\e2e-checkout.spec.js","line":35,"column":24}]}
+{"type":"after","callId":"expect@50","endTime":23428.293,"annotations":[]}
+{"type":"before","callId":"pw:api@51","stepId":"pw:api@51","startTime":23432.254,"class":"Test","method":"pw:api","title":"Fill \"John\"","subtitle":"locator('[data-test=\"firstName\"]')","params":{"locator":"locator('[data-test=\"firstName\"]')","value":"John"},"stack":[{"file":"D:\\Projects\\Assessment tentwenty\\pages\\checkout.page.js","line":15,"column":31,"function":"CheckoutPage.fillCheckoutInfo"}]}
+{"type":"after","callId":"pw:api@51","endTime":23470.611,"annotations":[]}
+{"type":"before","callId":"pw:api@52","stepId":"pw:api@52","startTime":23472.724,"class":"Test","method":"pw:api","title":"Fill \"Doe\"","subtitle":"locator('[data-test=\"lastName\"]')","params":{"locator":"locator('[data-test=\"lastName\"]')","value":"Doe"},"stack":[{"file":"D:\\Projects\\Assessment tentwenty\\pages\\checkout.page.js","line":16,"column":30,"function":"CheckoutPage.fillCheckoutInfo"}]}
